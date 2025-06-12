@@ -1,11 +1,30 @@
 ![img_1.png](docs/images/title.png)
 
 
-Annotations that be :fire:
+AI and LLM friendly annotations that be :fire:
+
+Polyglot annotations coming soon.
+
+[LLM Markers](#llm-markers)
+
+[Performance Markers](#performance-markers)
+
+[Threading Markers](#threading-markers)
+
+[Testing Markers](#testing-markers)
+
 
 ## Marker Annotations
 
 Annotations as a form of documentation.
+
+### LLM Markers
+
+Markers you can reference from prompts. Includes guard rails.
+
+#### @CheckBeforeModifying
+
+Check explicitly with the operator before modifying this code.
 
 ### Performance Markers
 
@@ -26,6 +45,16 @@ Written or designed to be optimised for memory.
 #### @GCOptimised
 
 Written or designed to be optimised to minimise GC or pause times.
+
+### Threading Markers
+
+#### @SingleThreaded
+
+Written for single threaded use.
+
+#### @MultiThreaded
+
+Written for multi threaded use.
 
 ### Testing Markers
 
