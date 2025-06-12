@@ -16,7 +16,7 @@ Polyglot annotations coming soon.
 
 ## Marker Annotations
 
-Annotations as a form of documentation.
+Annotations as a form of documentation and context for LLMs and AI Agents.
 
 ### LLM Markers
 
