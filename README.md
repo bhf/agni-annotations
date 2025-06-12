@@ -3,7 +3,7 @@
 
 AI and LLM friendly annotations that be :fire:
 
-Polyglot annotations coming soon.
+Related and associated prompts in the /prompts/ folder.
 
 [LLM Markers](#llm-markers)
 
@@ -13,6 +13,7 @@ Polyglot annotations coming soon.
 
 [Testing Markers](#testing-markers)
 
+Polyglot annotations coming soon.
 
 ## Marker Annotations
 
