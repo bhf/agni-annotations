@@ -31,21 +31,29 @@ Check explicitly with the operator before modifying this code.
 
 Markers used to convey something about how the code was written for performance.
 
-#### @CPUOptimised
+#### @CPUOptimised and @CPUConcerned
 
-Generally written to be CPU optimal.
+Generally written to be CPU optimal or the primary concern is CPU usage.
 
-#### @CacheOptimised
+#### @CacheOptimised and @CacheConcerned
 
-Written or designed to be cache friendly.
+Written or designed to be CPU cache friendly, or it's primary concern is CPU cache behaviour.
 
-#### @MemoryOptimised
+#### @MemoryOptimised and @MemoryConcerned
 
-Written or designed to be optimised for memory.
+Written or designed to be optimised for memory or be primarily concerned about memory usage.
 
-#### @GCOptimised
+#### @GCOptimised and @GCConcerned
 
-Written or designed to be optimised to minimise GC or pause times.
+Written or designed to be optimised to minimise GC or pause times, or to be primarily concerned with GC behaviour.
+
+#### @NetworkOptimised and @NetworkConcerned
+
+Written or designed to be optimal for Network IO or for network IO to be a primary concern.
+
+#### @IOOptimised and @IOConcerned
+
+Written or designed to be optimal for IO in general or for IO to be a primary concern.
 
 ### Threading Markers
 
