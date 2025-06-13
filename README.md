@@ -27,33 +27,34 @@ Markers you can reference from prompts. Includes guard rails.
 
 Check explicitly with the operator before modifying this code.
 
+#### @Only.*
+
+Only allow specific models to create or modify code.
+
+Variants included for:
+
+* Claude - @OnlyClaude
+* Gemini - @OnlyGemini
+* GPT - @OnlyGPT
+* Llama - @OnlyLlama
+* Qwen - @OnlyQwen
+
 ### Performance Markers
 
-Markers used to convey something about how the code was written for performance.
 
-#### @CPUOptimised and @CPUConcerned
+#### .*Optimised and .*Concerned
 
-Generally written to be CPU optimal or the primary concern is CPU usage.
+Markers used to convey something about how the code was written for 
+performance or the LLM should be concerned about when writing the code.
 
-#### @CacheOptimised and @CacheConcerned
+Variants included for:
 
-Written or designed to be CPU cache friendly, or it's primary concern is CPU cache behaviour.
-
-#### @MemoryOptimised and @MemoryConcerned
-
-Written or designed to be optimised for memory or be primarily concerned about memory usage.
-
-#### @GCOptimised and @GCConcerned
-
-Written or designed to be optimised to minimise GC or pause times, or to be primarily concerned with GC behaviour.
-
-#### @NetworkOptimised and @NetworkConcerned
-
-Written or designed to be optimal for Network IO or for network IO to be a primary concern.
-
-#### @IOOptimised and @IOConcerned
-
-Written or designed to be optimal for IO in general or for IO to be a primary concern.
+* CPU - @CPUConcerned and @CPUOptimised
+* Cache - @CacheConcerned and @CacheOptimised
+* Memory - @MemoryConcerned and @MemoryOptimised
+* GC - @GCConcerned and @GCOptimised
+* Network - @NetworkIOConcerned and @NetworkIOOptimised
+* IO - @IOConcerned and @IOOptimised
 
 ### Threading Markers
 
