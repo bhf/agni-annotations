@@ -33,11 +33,11 @@ Only allow specific models to create or modify code.
 
 Variants included for:
 
-* Claude - @OnlyClaude
-* Gemini - @OnlyGemini
-* GPT - @OnlyGPT
-* Llama - @OnlyLlama
-* Qwen - @OnlyQwen
+* Claude - ```@OnlyClaude```
+* Gemini - ```@OnlyGemini```
+* GPT - ```@OnlyGPT```
+* Llama - ```@OnlyLlama```
+* Qwen - ```@OnlyQwen```
 
 ### Performance Markers
 
@@ -49,12 +49,12 @@ performance or the LLM should be concerned about when writing the code.
 
 Variants included for:
 
-* CPU - @CPUConcerned and @CPUOptimised
-* Cache - @CacheConcerned and @CacheOptimised
-* Memory - @MemoryConcerned and @MemoryOptimised
-* GC - @GCConcerned and @GCOptimised
-* Network - @NetworkIOConcerned and @NetworkIOOptimised
-* IO - @IOConcerned and @IOOptimised
+* CPU - ```@CPUConcerned``` and ```@CPUOptimised```
+* Cache - ```@CacheConcerned``` and ```@CacheOptimised```
+* Memory - ```@MemoryConcerned``` and ```@MemoryOptimised```
+* GC - ```@GCConcerned``` and ```@GCOptimised```
+* Network - ```@NetworkIOConcerned``` and ```@NetworkIOOptimised```
+* IO - ```@IOConcerned``` and ```@IOOptimised```
 
 ### Threading Markers
 
